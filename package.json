@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev pages",
+    "docs:build": "vuepress build pages",
+    "deploy": "bash scripts/deploy.sh"
   },
   "keywords": [],
   "author": "",
