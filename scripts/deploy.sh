@@ -8,3 +8,9 @@ rm -rf ./docs
 npm run docs:build
 
 mv pages/.vuepress/dist ./docs
+
+git add .
+
+git commit -m 'deploy'
+
+git push

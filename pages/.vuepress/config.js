@@ -5,15 +5,24 @@ module.exports = {
   title: "姜风的博客啊",
   description: "巴拉巴拉巴拉",
   themeConfig: {
+    displayAllHeaders:true,
     nav: [
       { text: "主页", link: "/" },
       { text: "Github", link: "https://github.com/JFDTTTT" },
     ],
     sidebar: [
       {
-        title: "TS", // 必要的
-        sidebarDepth: 1, // 可选的, 默认值是 1
-        children: ["/ts/base"],
+        title: "TS",
+      },
+      {
+        title: "markdown", 
+        children: ["/markdown/base"],
+      },
+      {
+        title: "linux", 
+      },
+      {
+        title: "shell", 
       },
     ],
     lastUpdated: "Last Updated",
