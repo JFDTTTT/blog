@@ -14,3 +14,5 @@ git add .
 git commit -m 'deploy'
 
 git push
+
+echo '部署完成'
