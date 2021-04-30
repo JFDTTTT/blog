@@ -13,6 +13,7 @@ module.exports = {
     sidebar: [
       {
         title: "TS",
+        children: ['/ts/base']
       },
       {
         title: "markdown", 
