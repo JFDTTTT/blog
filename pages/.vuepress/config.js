@@ -25,6 +25,9 @@ module.exports = {
       {
         title: "shell", 
       },
+      {
+        title: "正则", 
+      },
     ],
     lastUpdated: "Last Updated",
   },
