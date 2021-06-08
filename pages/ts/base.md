@@ -68,7 +68,10 @@ console.log(Color1[1]); // red
 
 ### any
 
-any 是任意类型，跟 Object 类型的区别是：Object 类型的变量只是允许你给它赋任意值 - 但是却不能够在它上面调用任意的方法，
+any 是任意类型，跟 Object 类型的区别是：Object 类型的变量只是允许你给它赋任意值 - 但是却不能够在它上面调用任意的方法，  
+::: tip
+声明一个变量为任意值之后，对它的任何操作，返回的内容的类型都是任意值。
+:::
 
 ```typescript
 let str: any = 4;
@@ -172,3 +175,9 @@ let l = (<string>someValue).length;
 let someValue1: any = "this is a string";
 let l1 = (someValue1 as string).length;
 ```
+
+- 联合类型可以被断言为其中一个类型
+- 父类可以被断言为子类
+- 任何类型都可以被断言为 any
+- any 可以被断言为任何类型
+- 要使得 A 能够被断言为 B，只需要 A 兼容 B 或 B 兼容 A 即可

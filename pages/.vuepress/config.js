@@ -26,7 +26,8 @@ module.exports = {
         title: "shell", 
       },
       {
-        title: "正则", 
+        title: "regex", 
+        children: ["/regex/1", "/regex/2", "/regex/3"],
       },
     ],
     lastUpdated: "Last Updated",
