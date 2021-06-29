@@ -29,6 +29,10 @@ module.exports = {
         title: "regex", 
         children: ["/regex/1", "/regex/2", "/regex/3", "/regex/4", "/regex/5", "/regex/6", "/regex/7"],
       },
+      {
+        title: "git",
+        children: ["git/1"]
+      }
     ],
     lastUpdated: "Last Updated",
   },
